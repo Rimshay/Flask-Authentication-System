@@ -1,0 +1,60 @@
+🔐 Flask Auth System – Login | Registration | Password Reset
+A secure authentication web application built with Flask, featuring:
+
+User registration and login
+
+Password reset via email (token-based)
+
+Password hashing for security
+
+CSRF protection for forms
+
+🧰 Tech Stack
+Backend: Flask, Flask-SQLAlchemy
+
+Security: Flask-Mail, Werkzeug Security, itsdangerous
+
+Templating: HTML, Jinja2
+
+Database: SQLite (easily replaceable with PostgreSQL/MySQL)
+
+Forms: CSRF token-based protection
+
+🚀 Features
+✅ User Registration with validation
+
+✅ Login with hashed password check
+
+✅ Logout with session clearing
+
+✅ Password reset via email with secure token
+
+✅ CSRF Protection using Flask-WTF or flask_wtf.csrf
+
+✅ Flash messages for feedback
+
+✅ Clean frontend without Bootstrap
+
+
+📁 Project Structure
+
+your-app/
+│
+├── templates/
+│   ├── register.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── forget.html
+│   └── reset.html
+│
+├── static/
+│   └── styles.css (if used)
+│
+├── database/
+│   └── users.db
+│
+├── app.py
+├── .env
+├── requirements.txt
+└── README.md
+
